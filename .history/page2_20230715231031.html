@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>In-house google maps</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+   <nav>
+    <div class="logo">
+      <img src="Gla new logo.png" alt="Logo">
+  
+
+   </nav>
+</div>
+</header>
+>
+<div class="search-container">
+    <div class="dropdown">
+      <!-- <img src="search.jpeg" alt="search"> -->
+      <input type="text" id="start-input" class="dropdown-input" placeholder="Start Point" >
+      <!-- <div class="dropdown-arrow"></div> -->
+      <ul id="start-dropdown" class="dropdown-list"></ul>
+    </div>
+    <div class="dropdown">
+      <input type="text" id="end-input" class="dropdown-input" placeholder="End Point">
+     
+      <ul id="end-dropdown" class="dropdown-list"></ul>
+    </div>
+    <button id="search-btn">Navigate</button>
+  </div>
+  <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1ytYgROLt_i2ERWBToKdW-hHibYJaLXU&ehbc=2E312F" width="1300" height="480" id="frame"></iframe>
+
+  <div id="map"></div>
+  <script src="app.js"></script>
+</body>
+</html>
