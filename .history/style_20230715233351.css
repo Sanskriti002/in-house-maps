@@ -48,7 +48,6 @@ nav {
     
     
     box-shadow: 2px 2px 2px green;
-    margin-top:15px;
   }
 .search button img {
    display:inline-block;
@@ -67,7 +66,7 @@ nav {
      justify-content: space-between;
   }
 
-.container { 
+.container { */
     width: 50%;
     max-width: 700px;
     margin: 0 auto;
@@ -112,9 +111,9 @@ nav {
 }
 .contact-box {
   float: left;
-    width: 759px;
+    width: 765px;
     padding: 10px;
-    margin-top: -169px;
+    margin-top: -145px;
     margin-left: 6px;
     background-color: blue
 }
@@ -202,7 +201,7 @@ border-radius: 30px;
 font-style: italic ;
 font-size: medium ;
 font-weight: bold;
-cursor: pointer;
+
 }
 
 .dropdown-arrow {
@@ -221,7 +220,7 @@ border:2px;
 .dropdown-list {
 position: absolute;
 background-color: white;
-
+/* border: 50px solid black; */
 width: 200px;
 max-height: 150px;
 overflow-y: auto;
@@ -246,7 +245,6 @@ padding: 10px 40px ;
 border-radius: 50px;
 width:150px;
 height:40px;
-cursor: pointer;
 }
 
 #map {

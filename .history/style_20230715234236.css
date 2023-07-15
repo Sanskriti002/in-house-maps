@@ -202,7 +202,7 @@ border-radius: 30px;
 font-style: italic ;
 font-size: medium ;
 font-weight: bold;
-cursor: pointer;
+
 }
 
 .dropdown-arrow {
@@ -246,7 +246,7 @@ padding: 10px 40px ;
 border-radius: 50px;
 width:150px;
 height:40px;
-cursor: pointer;
+
 }
 
 #map {
