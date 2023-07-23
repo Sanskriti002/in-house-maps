@@ -41,7 +41,11 @@ nav {
     background-position: left;
   } 
 
-  
+  /* .flex{
+     display:flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+  } */
 
 .container { 
     width: 80%;
@@ -69,10 +73,9 @@ nav {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color:green;
+    background-color: red;
     color: white;
-    text-align: left;
-    
+    text-align: center;
   }
 
   

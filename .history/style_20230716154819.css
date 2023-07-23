@@ -41,10 +41,14 @@ nav {
     background-position: left;
   } 
 
-  
+  .flex{
+     display:flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+  }
 
 .container { 
-    width: 80%;
+    width: 100%;
     /* max-width: 700px; */
     margin: 0 auto;
      padding: 20px;
@@ -54,8 +58,11 @@ nav {
   
   .photo-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); 
-    grid-gap: 20px; 
+    grid-template-columns: repeat(3, 1fr);
+    
+    grid-gap: 20px;
+    
+  
   }
   
   .photo-grid img {
@@ -63,19 +70,44 @@ nav {
     height: auto;
     box-shadow: 5px 5px 5px green;
     cursor: pointer;
-  }
-  .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color:green;
-    color: white;
-    text-align: left;
     
+    
+
+  }
+  
+  .btn {
+    border-radius:10px;
+
   }
 
-  
+  /* .about-us {
+    /* float: left; */
+    width: 600px;
+    padding: 20px;
+    background-color: #fbd7db;
+    margin:60px;
+    height:300px;
+    position:absolute;
+    box-shadow: 6px 6px 6px rgb(235 165 177);
+}
+/* .contact-box {
+  float: left;
+    width: 759px;
+    padding: 10px;
+    margin-top: -169px;
+    margin-left: 6px;
+    background-color: blue
+} */
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+
 
 
 div{
